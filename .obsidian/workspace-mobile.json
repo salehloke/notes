@@ -1,24 +1,24 @@
 {
   "main": {
-    "id": "58aec98efba087d7",
+    "id": "0f93f2396c8a821e",
     "type": "split",
     "children": [
       {
-        "id": "e4aab983601347ba",
+        "id": "6e43d5707eb373a7",
         "type": "tabs",
         "children": [
           {
-            "id": "7b7740d4c4161ca6",
+            "id": "9fe7c9c1550bbed7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "floe c.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "floe c"
             }
           }
         ]
@@ -27,11 +27,11 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "4962b30138cc80cc",
+    "id": "7ec2a10d54c9b246",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "84ec49594fa73bc6",
+        "id": "8126b3525c86de64",
         "type": "leaf",
         "state": {
           "type": "file-explorer",
@@ -44,7 +44,7 @@
         }
       },
       {
-        "id": "57716dd65cb41597",
+        "id": "3a277d1967516889",
         "type": "leaf",
         "state": {
           "type": "search",
@@ -61,7 +61,7 @@
         }
       },
       {
-        "id": "38b702db2ef8a636",
+        "id": "b1e686e27bc189b8",
         "type": "leaf",
         "state": {
           "type": "tag",
@@ -76,7 +76,7 @@
         }
       },
       {
-        "id": "a6920d3af8633e98",
+        "id": "c363aef9cbc5684c",
         "type": "leaf",
         "state": {
           "type": "bookmarks",
@@ -89,11 +89,11 @@
     "currentTab": 0
   },
   "right": {
-    "id": "e6c2598e007c5f28",
+    "id": "3be19154463611fd",
     "type": "mobile-drawer",
     "children": [
       {
-        "id": "6a0e0f99ed134a7c",
+        "id": "f99c334e1fac83bf",
         "type": "leaf",
         "state": {
           "type": "backlink",
@@ -112,7 +112,7 @@
         }
       },
       {
-        "id": "053bbbe457f27372",
+        "id": "5ac68175fdb48936",
         "type": "leaf",
         "state": {
           "type": "outgoing-link",
@@ -126,7 +126,7 @@
         }
       },
       {
-        "id": "8a781f95e5aa5247",
+        "id": "cab9f51e3a73b8d3",
         "type": "leaf",
         "state": {
           "type": "outline",
@@ -141,7 +141,7 @@
         }
       },
       {
-        "id": "a7808538fe823654",
+        "id": "8bb55b3989b5aa22",
         "type": "leaf",
         "state": {
           "type": "git-view",
@@ -164,23 +164,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "7b7740d4c4161ca6",
+  "active": "9fe7c9c1550bbed7",
   "lastOpenFiles": [
+    "Untitled.md",
+    "floe c.md",
+    "Flow chart.md",
+    "/Ink/Drawing/2025.5.10 - 8.52am.drawing",
+    "/Ink/Drawing",
+    "/Ink",
     "Ink/Drawing/2025.5.10 - 8.52am.drawing",
+    "/Untitled.md",
     "Ink/Drawing",
     "Ink",
-    "ink.md",
-    "Untitled.md",
-    "Ink/Writing/2025.5.10 - 8.09am.writing",
-    "Ink/Writing",
-    "/ink.md",
-    "/Ink/Writing/2025.5.10 - 8.09am.writing",
-    "/Untitled.md",
-    "/Ink/Writing",
-    "/Ink",
-    "/Ink/Drawing",
-    "Ink/Drawing/2025.5.10 - 8.05am.drawing",
-    "Untitled.canvas",
     "readme.md"
   ]
 }
