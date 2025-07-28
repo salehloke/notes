@@ -12,7 +12,7 @@
 - [ ] Config on local, point to uat
 	- [x] replce the rewrites function in next.config.ts >with uat
 	- [x] try tracker on page, check on uat rewrds 
-	- [ ] write notes what is gatewayId
-		- [ ] 
+	- [x] notes in the rewrites, used for local. replaced this with the uat tolinkklocal with the uat develoment
+	- [ ] 
 - [ ] replace the loca with the UAT url tracker, so thacan check on uat
 	- [ ] https://smile-uat.etiqa.com.my/api/v5
