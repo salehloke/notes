@@ -40,10 +40,13 @@
 ### Due date 6 Aug
 - Ticket list:
 	- [ES-3813] - https://jira.maybank.com.my/browse/ES-3813 
-	- 
+
+- Ticket for the voucher state not being update here>
 - [ ] Transition history for Enjoy rewards ticket
 	- [ ] Check for Voucher 
-- [ ] Tracker Rewards GE Tracker
+
+- [[ES-3813-ENJOY- To Fix Enjoy Rewards GE Tracker]] 
+- [ ] Tracker Rewards GE Tracker 
 	- [ ] Test for the current value applied in the tracker
 	- [ ] Check the new Value want to apply:
 	- [ ] 
