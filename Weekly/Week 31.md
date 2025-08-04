@@ -17,3 +17,19 @@
 
 
 # TUE
+
+
+
+# Next Actions
+
+## CDH 
+- [ ] Check if the URL is working for 404 Issue. pending for UAT 
+
+## Enjoy Rewards 
+
+### Due date 6 Aug
+- [ ] Transition history for Enjoy rewards ticket
+	- [ ] Check for Voucher 
+- [ ] Tracker Rewards GE Tracker
+	- [ ] Test for the current value applied in the tracker
+	- [ ] 

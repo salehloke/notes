@@ -1,7 +1,0 @@
-{
-	"nodes":[
-		{"id":"3b7522a72fa442f5","x":-11,"y":276,"width":250,"height":60,"type":"text","text":"[[readme]]Tets"},
-		{"id":"5fcb5a744f75c92d","x":82,"y":408,"width":250,"height":60,"type":"text","text":""}
-	],
-	"edges":[]
-}
