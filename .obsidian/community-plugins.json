@@ -1,5 +1,7 @@
 [
   "ink",
   "obsidian-git",
-  "obsidian-importer"
+  "obsidian-importer",
+  "obsidian-tasks-plugin",
+  "calendar"
 ]
