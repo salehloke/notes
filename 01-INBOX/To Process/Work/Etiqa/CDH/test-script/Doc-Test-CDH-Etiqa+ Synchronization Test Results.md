@@ -720,19 +720,19 @@ curl -X GET "http://localhost:11400/api/v5/mobile-cdh/sync-cdh-into-eplus/68872f
 
 ## Verification Checklist
 
-- [x] Primary email updates user.email
+- [ ] Primary email updates user.email
 
-- [x] Primary contact updates user.phoneNo and user.countryCode
+- [ ] Primary contact updates user.phoneNo and user.countryCode
 
-- [x] Primary address updates user.address
+- [ ] Primary address updates user.address
 
-- [x] Verification status properly updates user.isPhoneNoVerified and user.isEmailVerified
+- [ ] Verification status properly updates user.isPhoneNoVerified and user.isEmailVerified
 
-- [x] Only one primary item exists in each category
+- [ ] Only one primary item exists in each category
 
-- [x] All updates from Etiqa+ are synchronized with CDH
+- [ ] All updates from Etiqa+ are synchronized with CDH
 
-- [x] All data from CDH is correctly reflected in Etiqa+
+- [ ] All data from CDH is correctly reflected in Etiqa+
 
   
 

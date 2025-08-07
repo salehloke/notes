@@ -16,3 +16,18 @@ Figma:
 PR:
 
 https://github.maybank.com/ETIQA-CHANNELS/smile-aio/pull/2907
+
+
+Checklist
+- [ ] Why new address added become the first one? (low prio)
+- [ ] why are there userAddress and address (low prio)
+- [ ] remove delete Button #urgent
+	- [x] remove in edit page
+	- [x] show in add page
+- [x] remove additional add new data button #urgent 
+- [x] check scenario when emptying input from address line 2 -> 5 in CDH API
+	- [x] can it accept empty string? 
+		- no. only null
+	- [ ] should we sent null or empty string?
+		- confirm with CK, Evonne. how is this going to be
+- [x] remove log for request search party. too many
