@@ -31,9 +31,11 @@
 	- https://jira.maybank.com.my/browse/ETQREGMOBA-876
 
 - [ ] Test BO for UAT sign-off
-	- [ ] Blockers:  Error 404 on CDH. Hazirah cannot test
-		- [ ] Check if the URL is working for 404 Issue. pending for UAT 
-		- [ ] changes is applied. but need to ensure its working
+	- [x] Blockers:  Error 404 on CDH. Hazirah cannot test
+		- [x] Check if the URL is working for 404 Issue. pending for UAT 
+		- [x] changes is applied. but need to ensure its working
+- [x] Enhancement:
+	- [x] UI for contact manager, emails
 
 ## Enjoy Rewards 
 
@@ -45,8 +47,15 @@
 - [ ] Transition history for Enjoy rewards ticket
 	- [ ] Check for Voucher 
 
-- [[ES-3813-ENJOY- To Fix Enjoy Rewards GE Tracker]] 
+- [[{ENJOY} ES-3813- To Fix Enjoy Rewards GE Tracker]] 
 - [ ] Tracker Rewards GE Tracker 
 	- [ ] Test for the current value applied in the tracker
 	- [ ] Check the new Value want to apply:
-	- [ ] 
+- [ ] One miliion
+	- [ ] assign to user through wheelspin. must create an api
+	- [ ] Jess will remind and follow up on thursday  7 AUG
+- [ ] 
+
+
+
+## Done 
