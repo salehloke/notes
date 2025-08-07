@@ -47,7 +47,7 @@
 - [ ] Transition history for Enjoy rewards ticket
 	- [ ] Check for Voucher 
 
-- [[Task {ENJOY} ES-3813- To Fix Enjoy Rewards GE Tracker]] 
+- [[01-INBOX/To Process/Task {ENJOY} ES-3813- To Fix Enjoy Rewards GE Tracker]] 
 - [ ] Tracker Rewards GE Tracker 
 	- [ ] Test for the current value applied in the tracker
 	- [ ] Check the new Value want to apply:
