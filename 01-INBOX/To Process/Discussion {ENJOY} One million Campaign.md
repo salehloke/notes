@@ -19,3 +19,9 @@ phase 1:
 - able to assign to user
 - user can use in the enjoy rewards
 - able to test system before 31st =augus
+
+Action items
+- [ ] create a flow for the voucher with separate pool and a brainstorm notes
+	- [ ] voucher separate pool obtained directly from vendor
+	- [ ] have tier (gold, platinum, silver) or tier 1, 2 ,3
+	- [ ] how does the enjoy
