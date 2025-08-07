@@ -1,4 +1,3 @@
-
 # Obsidian System Guidelines
 
 _Personal reference for my unified tracking system_
@@ -53,7 +52,7 @@ One system to capture, organize, and retrieve everything. Every item gets proces
 
 ### For Inbox Items
 
-**Format:** `[Type] - Brief Description - YYMMDD`
+**Format:** `Type - Brief Description - YYMMDD`
 
 **Examples:**
 
@@ -65,7 +64,7 @@ One system to capture, organize, and retrieve everything. Every item gets proces
 
 ### Why This Format Works:
 
-- **[Type]** - Immediate visual identification
+- **Type** - Immediate visual identification
 - **Brief Description** - Clear content summary
 - **Date** - Chronological sorting and context
 - **Consistent** - Easy scanning and processing
