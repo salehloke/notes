@@ -17,6 +17,7 @@ PR:
 
 https://github.maybank.com/ETIQA-CHANNELS/smile-aio/pull/2907
 
+ticket: https://jira.maybank.com.my/browse/ETQREGMOBA-955
 
 Checklist
 - [ ] Why new address added become the first one? (low prio)

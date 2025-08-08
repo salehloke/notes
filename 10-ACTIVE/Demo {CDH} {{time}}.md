@@ -25,5 +25,9 @@
 - [ ] must be able to register without any address
 - [ ] must be able to edit profile without address
 - [ ] scenario to test
+	- [ ] add user without address
+	- [ ] edit user without address
+	- [ ] edit user (add address)
+	- [ ] edit user (edit address)
 
 ## 

@@ -1,6 +1,21 @@
 # CDH Backoffice Feature Flowchart
 
-  
+  1. register user (without address)
+	  - check in Search party for the NRIC we want to register
+	  - simulate for BAU situation
+  2. Edit details (without address)
+	  - simulate for BAU situation, no address in Etiqa+
+  3. Edit details (add address)
+  4. Edit details (edit address)
+
+concern and ActionItems:
+- add admin id that performs on update profile (low prio)
+- add emailtypecode in the comparison (low prio) 
+- keep failed logs only for search_party (medium)
+- when click the set primary, do alert the user (low prio)
+- line 2,3,4,5 as optional, follow up with Mingyan. send details through emails (high priority)
+  ![[Pasted image 20250808152729.png]]
+
 
 ## Simplified User Registration Flow
 
