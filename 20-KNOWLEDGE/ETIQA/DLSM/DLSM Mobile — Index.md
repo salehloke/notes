@@ -24,6 +24,12 @@ Quick entry points to DLSM mobile documentation.
 - [[DLSM Mobile — Glossary]]
   - Definitions for uuid, POI, FNA files, fraud logs, and app-id.
 
+- [[DLSM Enhancement Plan — Step Linkage (Option C)]]
+  - Quick implementation plan to require `uuid` at Step 3 for ETIQA_REGIONAL.
+
+- [[DLSM Enhancement Roadmap — Linkage Options A-B-C]]
+  - Longer-term options and tradeoffs for stronger linkage and validation.
+
 Key business requirement
 - Odometer photo is compulsory for Activation and DLSM Rebate submission.
 - Vehicle number photo is compulsory for Activation only (not required for Rebate submission).

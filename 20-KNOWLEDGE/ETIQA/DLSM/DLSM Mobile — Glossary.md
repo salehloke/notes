@@ -14,4 +14,6 @@ tags: [dlsm, glossary]
 - Fraud detection log: Non-blocking tracking emitted when `dlsm_fraud_detection_mode` is on; includes `uuid`, `imageUrl`, and request/response for manual review.
 - App ID (`x-app-id`): Header identifying the consuming app. Defaults to `ETIQA_PLUS` when omitted. `ETIQA_REGIONAL` triggers Regional-specific submission behavior.
 
+- TTL (Time-to-Live): An automatic expiration duration applied to records in a store (e.g., `mobile_dlsm_steps`). After TTL elapses (e.g., 72 hours), records are auto-deleted by the database/index to prevent indefinite retention of stale step data.
+
 See also: [[DLSM Mobile — Index]]

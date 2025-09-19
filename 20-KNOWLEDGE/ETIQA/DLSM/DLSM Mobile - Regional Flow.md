@@ -49,15 +49,38 @@ Notes:
     - Values: `odometer_value`, `plate_number_value`
     - Policy: `policy_no`, `policy_entity`, `inception_date`, `maturity_expiry_date`, `poi_start_date?`
     - Other: `request_type` (e.g., activation), `upload_method_code` (e.g., UMC0)
+    - Regional REQUIRED: `uuid` (string) — transaction id from Step 1 (AI)
     - Optional (supported here): `bank_code`, `bank_account_no`
 
 Server behavior:
 - Validates policy with `unityService.validatePolicyByIdNo`.
+- Requires `uuid` presence (Option C). If missing: 400 `DLSM.UUID_REQUIRED`.
 - Calls `dlsmService.createBackFileRegional(...)` (Regional flow), which:
   - Builds a `SubmitDlsmRegionalDto` including odometer value, dates, policy/vehicle details, and optional bank info.
   - Invokes rebate calculation via `dlsmRegionalService.submitDlsmRebateCalculation(...)`.
 - Generates `.fna` files for odometer and plate images (when present); cleans temp folders.
 - Clears customer policy cache to ensure fresh summary.
+
+---
+
+## Request Examples
+
+- Multipart form-data (Regional with uuid)
+```
+odometer_image: (file) odometer.jpg
+plate_number_image: (file) plate.jpg
+request_type: activation
+odometer_image_timestamp: 2025-01-01T08:00:00Z
+plate_number_image_timestamp: 2025-01-01T08:00:05Z
+plate_number_value: ABC1234
+odometer_value: 12345
+policy_no: PU123456
+policy_entity: 1
+inception_date: 2024-01-01T00:00:00Z
+maturity_expiry_date: 2025-12-31T23:59:59Z
+upload_method_code: UMC0
+uuid: b3a1f9e0-1234-4a6a-9c77-11aa22bb33cc
+```
 
 ---
 
@@ -175,6 +198,7 @@ Note: Regional response structure is ESB-provided and may vary; the above is ill
 - DTOs: `apps/smile/src/mobile/_dto/dlsm/*.dto.ts`
 - Config: `DLSM_AI_URL`, `DLSM_AI_IMAGE_URL`, `DLSM_MAX_FILE_SIZE_IN_MB`, `DLSM_MAX_RESPONSE_SIZE_IN_MB`, flags under configuration collection/migrations.
 - Glossary: [[DLSM Mobile — Glossary]]
+ - Enhancement Plan: [[DLSM Enhancement Plan — Step Linkage (Option C)]]
 
 ---
 

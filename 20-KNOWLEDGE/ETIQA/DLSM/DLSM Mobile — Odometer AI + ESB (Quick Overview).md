@@ -80,6 +80,8 @@ sequenceDiagram
 - Does submission succeed for both apps? (ETIQA_PLUS and ETIQA_REGIONAL)
 - If fraud logs are enabled, do entries appear (non‑blocking)?
 
+Regional note (Option C): Step 3 requires `uuid` from Step 1; ETIQA_PLUS does not.
+
 ---
 
 Last updated: 2025-09-16

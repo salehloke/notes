@@ -49,12 +49,34 @@ Notes:
     - Values: `odometer_value`, `plate_number_value`
     - Policy: `policy_no`, `policy_entity`, `inception_date`, `maturity_expiry_date`
     - Other: `request_type` (e.g., activation), `upload_method_code` (e.g., UMC0)
+    - Optional: `uuid` (string) — included if available (for correlation only; not required for ETIQA_PLUS)
 
 Server behavior:
 - Validates policy with `unityService.validatePolicyByIdNo`.
 - Calls `dlsmService.createBackFileVer2(...)` (ETIQA+ flow).
 - Generates `.fna` files for odometer and plate images (when present); cleans temp folders.
 - Clears customer policy cache to ensure fresh summary.
+
+---
+
+## Request Examples
+
+- Multipart form-data (ETIQA_PLUS with optional uuid)
+```
+odometer_image: (file) odometer.jpg
+plate_number_image: (file) plate.jpg
+request_type: activation
+odometer_image_timestamp: 2025-01-01T08:00:00Z
+plate_number_image_timestamp: 2025-01-01T08:00:05Z
+plate_number_value: ABC1234
+odometer_value: 12345
+policy_no: PU123456
+policy_entity: 1
+inception_date: 2024-01-01T00:00:00Z
+maturity_expiry_date: 2025-12-31T23:59:59Z
+upload_method_code: UMC0
+uuid: b3a1f9e0-optional
+```
 
 ---
 
@@ -165,6 +187,7 @@ Server behavior:
 - DTOs: `apps/smile/src/mobile/_dto/dlsm/*.dto.ts`
 - Config: `DLSM_AI_URL`, `DLSM_AI_IMAGE_URL`, `DLSM_MAX_FILE_SIZE_IN_MB`, `DLSM_MAX_RESPONSE_SIZE_IN_MB`, flags under configuration collection/migrations.
 - Glossary: [[DLSM Mobile — Glossary]]
+ - Enhancement Plan: [[DLSM Enhancement Plan — Step Linkage (Option C)]]
 
 ---
 

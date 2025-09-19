@@ -110,12 +110,13 @@ Use the mobile coverage endpoint to submit DLSM payload and images to the backen
   - Policy: `policy_no`, `policy_entity`, `inception_date`, `maturity_expiry_date`
   - Other: `request_type` (e.g., `activation`), `upload_method_code` (e.g., `UMC0`)
   - Optional (Regional support): `bank_code`, `bank_account_no` (used in Regional flow when provided)
+  - Regional (Option C): `uuid` (string) — REQUIRED for `ETIQA_REGIONAL` submissions; optional for ETIQA_PLUS
 
 Server-side processing:
 - Policy validation: `unityService.validatePolicyByIdNo(...)`. If not found, returns error `NO_POLICIES_FOUND`.
 - Branch by app id:
-  - `ETIQA_PLUS` → `dlsmService.createBackFileVer2(...)` (newer path for ETIQA+)
-  - `ETIQA_REGIONAL` → `dlsmService.createBackFileRegional(...)` (Regional flow; includes rebate calculation call)
+  - `ETIQA_PLUS` → `dlsmService.createBackFileVer2(...)` (newer path for ETIQA+). `uuid` is optional (used for correlation only).
+  - `ETIQA_REGIONAL` → `dlsmService.createBackFileRegional(...)` (Regional flow; includes rebate calculation call). Under Option C, `uuid` presence is required (400 `DLSM.UUID_REQUIRED` if missing).
 - File handling:
   - Uploaded files validated and placed into per‑upload folders (odometer vs plate number). Temp folders are cleaned.
   - Server generates `.fna` files (one per image) when folders are non‑empty: `createOdometerFna(...)`, `createPlateNoFna(...)`.
